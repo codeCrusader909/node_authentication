@@ -1,0 +1,28 @@
+.header {
+    height: 10vh;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 18%;
+}
+
+.logo img {
+    width: auto;
+    height: 61px;
+    border-radius: 2.5rem;
+    margin-right: 0.8rem;
+    max-height: 6rem;
+    max-width: 18rem;
+}
+a+a {
+    margin-left: 10px;
+}
+.error { color: red; }
+.success { color: rgb(0, 255, 55); }

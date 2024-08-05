@@ -1,0 +1,404 @@
+{
+  level: 'error',
+  'error message': "Cannot find module 'ejs'\n" +
+    'Require stack:\n' +
+    '- /var/www/html/testNode/node_modules/express/lib/view.js\n' +
+    '- /var/www/html/testNode/node_modules/express/lib/application.js\n' +
+    '- /var/www/html/testNode/node_modules/express/lib/express.js',
+  'request URL': '/login',
+  timestamp: '2024-07-31T07:18:06.811Z'
+}
+{
+  level: 'error',
+  'error message': "Unexpected token ';' in /var/www/html/testNode/src/views/login.ejs while compiling ejs\n" +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  'request URL': '/login',
+  timestamp: '2024-08-01T05:11:01.481Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/login.ejs:55\n' +
+    '    53|         </div>\n' +
+    '    54|         <div class="modal-body">\n' +
+    ' >> 55|           <span><% if(error){ %> <%= error %><% } %></span>\n' +
+    '    56|           <form action="/register" method="post" class="p-2">\n' +
+    '    57|             <div class="mb-3">\n' +
+    '    58|               <div class="input-group">\n' +
+    '\n' +
+    'error is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T05:14:26.755Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/login.ejs:55\n' +
+    '    53|         </div>\n' +
+    '    54|         <div class="modal-body">\n' +
+    ' >> 55|           <span><% if(error != "undefined"){ %> <%= error %><% } %></span>\n' +
+    '    56|           <form action="/register" method="post" class="p-2">\n' +
+    '    57|             <div class="mb-3">\n' +
+    '    58|               <div class="input-group">\n' +
+    '\n' +
+    'error is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T05:14:57.203Z'
+}
+{
+  level: 'error',
+  'error message': 'req.flash is not a function',
+  'request URL': '/login',
+  timestamp: '2024-08-01T05:28:28.435Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/login.ejs:55\n' +
+    '    53|         </div>\n' +
+    '    54|         <div class="modal-body">\n' +
+    ' >> 55|           <% if (error) { %>\n' +
+    '    56|             <p class="error"><%= error %></p>\n' +
+    '    57|           <% } %>\n' +
+    '    58|           <form action="/register" method="post" class="p-2">\n' +
+    '\n' +
+    'error is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T05:32:25.141Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/layout.ejs:41\n' +
+    '    39|                       <li class="nav-item dropdown">\n' +
+    '    40|                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">\n' +
+    ' >> 41|                           <% if(user.name){ %> <%= user.name %> <% } %>\n' +
+    '    42|                         </a>\n' +
+    '    43|                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">\n' +
+    '    44|                           <li><a class="dropdown-item" href="/logout" tabindex="-1" aria-disabled="true">Logout</a></li>\n' +
+    '\n' +
+    'user is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T06:28:10.165Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/layout.ejs:41\n' +
+    '    39|                       <li class="nav-item dropdown">\n' +
+    '    40|                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">\n' +
+    ' >> 41|                           <% if(user.name){ %> <%= user.name %> <% } %>\n' +
+    '    42|                         </a>\n' +
+    '    43|                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">\n' +
+    '    44|                           <li><a class="dropdown-item" href="/logout" tabindex="-1" aria-disabled="true">Logout</a></li>\n' +
+    '\n' +
+    'user is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T06:28:11.998Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/layout.ejs:41\n' +
+    '    39|                       <li class="nav-item dropdown">\n' +
+    '    40|                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">\n' +
+    ' >> 41|                           <% if(user.name){ %> <%= user.name %> <% } %>\n' +
+    '    42|                         </a>\n' +
+    '    43|                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">\n' +
+    '    44|                           <li><a class="dropdown-item" href="/logout" tabindex="-1" aria-disabled="true">Logout</a></li>\n' +
+    '\n' +
+    'user is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T06:37:21.072Z'
+}
+{
+  level: 'error',
+  'error message': "Cannot read properties of undefined (reading 'name')",
+  'request URL': '/success',
+  timestamp: '2024-08-01T06:51:38.419Z'
+}
+{
+  level: 'error',
+  'error message': "Cannot read properties of undefined (reading 'name')",
+  'request URL': '/success',
+  timestamp: '2024-08-01T06:52:30.447Z'
+}
+{
+  level: 'error',
+  'error message': "Cannot read properties of undefined (reading 'name')",
+  'request URL': '/success',
+  timestamp: '2024-08-01T06:53:11.583Z'
+}
+{
+  level: 'error',
+  'error message': "Cannot read properties of undefined (reading 'name')",
+  'request URL': '/success',
+  timestamp: '2024-08-01T07:02:06.919Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/layout.ejs:42\n' +
+    '    40|                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">\n' +
+    '    41|                           <% if(locals.userName){ %> <%= locals.userName %> <% } %>\n' +
+    ' >> 42|                           <%= ZXzX %>\n' +
+    '    43|                         </a>\n' +
+    '    44|                        \n' +
+    '    45|                       </li>\n' +
+    '\n' +
+    'ZXzX is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T07:05:03.609Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/layout.ejs:42\n' +
+    '    40|                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">\n' +
+    '    41|                           <% if(locals.userName){ %> <%= locals.userName %> <% } %>\n' +
+    ' >> 42|                           <%= ZXzX %>\n' +
+    '    43|                         </a>\n' +
+    '    44|                        \n' +
+    '    45|                       </li>\n' +
+    '\n' +
+    'ZXzX is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T07:05:05.537Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/layout.ejs:42\n' +
+    '    40|                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">\n' +
+    '    41|                           <% if(locals.userName){ %> <%= locals.userName %> <% } %>\n' +
+    ' >> 42|                           <%= ZXzX %>\n' +
+    '    43|                         </a>\n' +
+    '    44|                        \n' +
+    '    45|                       </li>\n' +
+    '\n' +
+    'ZXzX is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-01T07:05:19.835Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4%2F0AcvDMrBj6CtyxL4fm7bocO4bFpi9rjAq_DIvwQ5MBI2OsyizGMjmuRFc7gU-4v8sX7z-Iw&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T07:42:56.264Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrDTnwEndl_Ds6xckct4fBvzte6e2YIGCgHNE4ND05RFWS-d1GR3iouN1wLLmu45pA&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T07:48:36.561Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrAFUtTPMUY69z6YHPUpWSjW9dClC4xE71rECgDrYnL3IuBbs0yNK_xGH-_Z80HCFQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T07:53:22.727Z'
+}
+{
+  level: 'error',
+  'error message': 'Bad Request',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrAFUtTPMUY69z6YHPUpWSjW9dClC4xE71rECgDrYnL3IuBbs0yNK_xGH-_Z80HCFQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T07:57:52.674Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrDoqBmbOlORfeqqggNsPQPJvcQyzsgbdlP83TRn71jD0wpE771ERFDy5TQHhWuK6Q&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T07:58:11.937Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrBvGLqSQiPujasgiDRY4wQLmfMKP9BNw7dVf4fmK9oWKW4mxf3GL3NQZBEWbKjYng&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T08:00:21.904Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrCBGPhNODH-VRDePlTcDv-UwxM7N03DxqzUqjxwCTZI2AaR0ZlLGYvQrdEtCa-7AQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T08:01:32.684Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrCDfaylZMcyLexyn_jwxP15oRa3ZvA132Zi0gLMopciyZVZidrF0KsuqK4EScEE1A&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T08:01:58.477Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrBvQYRcgryt1D9vEzqAxRk7qgy_jZ6wWqUpe2vVfRpX3l8e7mjih79dIyRnuy9gxg&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T08:05:56.093Z'
+}
+{
+  level: 'error',
+  'error message': "Cannot read properties of undefined (reading '0')",
+  'request URL': '/auth/google/callback?code=4/0AcvDMrAqxSMZWgoSVEVC9VEg_aHjMgqAlMR8mB9Uv5UL2n3wN9hpTYLUpxOAR1S1BJUF2Q&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T08:06:22.305Z'
+}
+{
+  level: 'error',
+  'error message': "Cannot read properties of undefined (reading '0')",
+  'request URL': '/auth/google/callback?code=4/0AcvDMrAuEbLq9CHaqDlMa-6QzBdq6mw4tdgWL-K7wRO_n3Yc7A3QyRSfn16jAkmXg2OMHg&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T08:07:07.791Z'
+}
+{
+  level: 'error',
+  'error message': "Cannot read properties of undefined (reading '0')",
+  'request URL': '/auth/google/callback?code=4/0AcvDMrB8cKcdsuGEjILJT-vLERpnGESR3NFX2CtxlsUfWw-cBpK8hS_4JOWbKJGRNAs_NA&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-01T08:07:40.990Z'
+}
+{
+  level: 'error',
+  'error message': 'email is not defined',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrAUKxHxsMgF0jiZOM49iNkfhH74LRuCfM_oWE4wQulPwltMJLrX2seyIdJ2r59Dcw&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T04:35:06.077Z'
+}
+{
+  level: 'error',
+  'error message': 'Bad Request',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrAUKxHxsMgF0jiZOM49iNkfhH74LRuCfM_oWE4wQulPwltMJLrX2seyIdJ2r59Dcw&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T04:35:37.868Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrA5lBqa_6WepYPWXAON0Uxz1KBgDjVwrYsCw3FV_XtiOyQELtVJvylJI1lj5kXVdQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T05:07:08.947Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrCkC9Ap76yHpfgMhHuUA-6qX9xtGihgBJkzLO6_OwhOkhSgV_yyL-rveaBbpl-kBQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T05:11:57.848Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrBHRJvvliat66k3ltC_ACsaN6yayuYR5sesuEoUL44iYaRYU6ujARK_o8jXAuey-g&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T05:15:13.792Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrAgGrOblH7oHOTfukLnYlzC4PxgObrF9nKcLTI8TziNrxgwB4-gMrSLt6T5MqIBiA&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T05:33:12.979Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrC1I_UqShr3uQGTZ9SN2FWsBazN8kj7M_g_4w_TMtaka_EVLqaLfYhxsB2WdPqQNg&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T05:37:22.871Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrAjF5qFW8VFUzQdV8dEW--RWIKgI4VptJx-1mSvaRgZcJ-aSEtiLkqgcTsnJaKjaQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T05:38:22.533Z'
+}
+{
+  level: 'error',
+  'error message': 'Failed to serialize user into session',
+  'request URL': '/auth/google/callback?code=4/0AcvDMrBlB-mPJ3LPgHrmQO4vwEN54KeUuqCckOWQnwXWMjv1swzNg_-QU4Wo-ZjIXnNPkg&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent',
+  timestamp: '2024-08-02T05:40:00.579Z'
+}
+{
+  level: 'error',
+  'error message': 'Could not find matching close tag for "<%".',
+  'request URL': '/login',
+  timestamp: '2024-08-02T06:04:04.245Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/reset.ejs:12\n' +
+    '    10|         </div>\n' +
+    '    11|         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">\n' +
+    ' >> 12|             <p class="error"> <% if (errorMessage) { %><%= errorMessage %> <% } %></p>\n' +
+    '    13|             <form action="/login" method="POST">\n' +
+    '    14|               <!-- Email input -->\n' +
+    '    15|               <div data-mdb-input-init class="form-outline mb-4">\n' +
+    '\n' +
+    'errorMessage is not defined',
+  'request URL': '/reset',
+  timestamp: '2024-08-02T06:18:32.875Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/reset-password.ejs:12\n' +
+    '    10|         </div>\n' +
+    '    11|         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">\n' +
+    ' >> 12|             <p class="error"> <% if (errorMessage) { %><%= errorMessage %> <% } %></p>\n' +
+    '    13|             <form action="/reset" method="POST">\n' +
+    '    14|               <!-- Email input -->\n' +
+    '    15|               <div data-mdb-input-init class="form-outline mb-4">\n' +
+    '\n' +
+    'errorMessage is not defined',
+  'request URL': '/reset-password?token=5fe17a5c377d2d38924e7c3c628719c3bcee9ed776cb8d876d9616b0305fac91',
+  timestamp: '2024-08-02T10:11:11.330Z'
+}
+{
+  level: 'error',
+  'error message': 'Cannot set headers after they are sent to the client',
+  'request URL': '/reset-password?token=5fe17a5c377d2d38924e7c3c628719c3bcee9ed776cb8d876d9616b0305fac91',
+  timestamp: '2024-08-04T07:52:02.596Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/login.ejs:15\n' +
+    '    13|       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">\n' +
+    '    14|           <p class="error"> <% if (errorMessage) { %><%= errorMessage %> <% } %></p>\n' +
+    ' >> 15|           <p class="success"> <% if (successMessage) { %><%= successMessage %> <% } %></p>\n' +
+    '    16|           <form action="/login" method="POST">\n' +
+    '    17| \n' +
+    '    18|             <!-- Email input -->\n' +
+    '\n' +
+    'successMessage is not defined',
+  'request URL': '/login',
+  timestamp: '2024-08-04T16:09:50.389Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/reset.ejs:14\n' +
+    '    12|         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">\n' +
+    '    13|             <p class="error"> <% if (errorMessage) { %><%= errorMessage %> <% } %></p>\n' +
+    ' >> 14|             <p class="success"> <% if (successMessage) { %><%= successMessage %> <% } %></p>\n' +
+    '    15| \n' +
+    '    16|             <form action="/reset" method="POST">\n' +
+    '    17|               <!-- Email input -->\n' +
+    '\n' +
+    'successMessage is not defined',
+  'request URL': '/reset',
+  timestamp: '2024-08-04T16:20:32.438Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/reset.ejs:14\n' +
+    '    12|         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">\n' +
+    '    13|             <p class="error"> <% if (errorMessage) { %><%= errorMessage %> <% } %></p>\n' +
+    ' >> 14|             <p class="success"> <% if (successMessage) { %><%= successMessage %> <% } %></p>\n' +
+    '    15| \n' +
+    '    16|             <form action="/forgot-passsword" method="POST">\n' +
+    '    17|               <!-- Email input -->\n' +
+    '\n' +
+    'successMessage is not defined',
+  'request URL': '/forgot-passsword',
+  timestamp: '2024-08-05T05:55:33.282Z'
+}
+{
+  level: 'error',
+  'error message': '/var/www/html/testNode/src/views/reset.ejs:14\n' +
+    '    12|         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">\n' +
+    '    13|             <p class="error"> <% if (errorMessage) { %><%= errorMessage %> <% } %></p>\n' +
+    ' >> 14|             <p class="success"> <% if (successMessage) { %><%= successMessage %> <% } %></p>\n' +
+    '    15| \n' +
+    '    16|             <form action="/forgot-passsword" method="POST">\n' +
+    '    17|               <!-- Email input -->\n' +
+    '\n' +
+    'successMessage is not defined',
+  'request URL': '/forgot-passsword',
+  timestamp: '2024-08-05T06:09:00.918Z'
+}
+{
+  level: 'error',
+  'error message': 'Cannot set headers after they are sent to the client',
+  'request URL': '/forgot-passsword',
+  timestamp: '2024-08-05T06:12:37.089Z'
+}
