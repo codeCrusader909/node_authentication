@@ -15,7 +15,6 @@ export const userRegistrationRepo = async (userData) => {
   export const userLoginRepo = async (userData) => {
     try {
       const { username, password } = userData;
-      console.log(username)
       const user = await userModel.findOne({ email:username });
       if (!user) {
         return {
@@ -77,7 +76,6 @@ export const userRegistrationRepo = async (userData) => {
         res:'Scuccessfully email sent to '+mailOptions.to
       };
     }catch(err){
-      console.log(err)
       return {
         success: false,
         error: { statusCode: 400, msg: err },
@@ -90,7 +88,6 @@ export const userRegistrationRepo = async (userData) => {
       const user = await userModel.findOne({
         resetToken: resetToken
       });
-      console.log(user)
       if (!user) {
         return {
           success: false,
